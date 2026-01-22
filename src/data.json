@@ -1,0 +1,46 @@
+[
+  {
+    "type": "hero",
+    "props": {
+      "title": "Welcome to our awesome service!",
+      "subtitle": "We help you build amazing things.",
+      "imageUrl": "/hero-bg.jpg",
+      "ctaText": "Get Started",
+      "ctaLink": "/signup"
+    }
+  },
+  {
+    "type": "pricing",
+    "props": {
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$10/month",
+          "features": ["Feature 1", "Feature 2", "Feature 3"]
+        },
+        {
+          "name": "Pro",
+          "price": "$25/month",
+          "features": ["Feature 1", "Feature 2", "Feature 3", "Feature 4"]
+        },
+        {
+          "name": "Enterprise",
+          "price": "$99/month",
+          "features": ["Feature 1", "Feature 2", "Feature 3", "Feature 4", "Feature 5"]
+        }
+      ]
+    }
+  },
+  {
+    "type": "slider",
+    "props": {
+      "slides": [
+        {
+          "imageUrl": "/slide1.jpg",
+          "title": "Slide 1",
+          "description": "Description 1"
+        }
+      ]
+    }
+  }
+]
